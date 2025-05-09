@@ -1,0 +1,13 @@
+name = "Stamina"
+filename = "Stamina-1.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SZjGtZJz/versions/UoHUXj6G/Stamina-1.1.2.jar"
+hash-format = "sha512"
+hash = "a37b674cc61553bae74f9e6734932a79f8b7680b43817844dc68b400e6ddda83269f53aa6ae0eb9b2c59a521fb846ede304102774644fb2e43c1af55ce363185"
+
+[update]
+[update.modrinth]
+mod-id = "SZjGtZJz"
+version = "UoHUXj6G"

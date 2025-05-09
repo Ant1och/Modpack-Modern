@@ -1,0 +1,13 @@
+name = "TFC Purified Water"
+filename = "purified_water-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "83addb3151af15dd0fc8a3870007caaa4de01fb5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6224583
+project-id = 1107681

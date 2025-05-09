@@ -1,0 +1,13 @@
+name = "TFC Desire Paths"
+filename = "TFCDesirePaths-1.20.1-1.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7ETmpdgC/versions/UuXfR7kU/TFCDesirePaths-1.20.1-1.3.jar"
+hash-format = "sha512"
+hash = "9b73b1563600e4bf78508a891077268030cde50994257c7b96532d40af2bb6ccaf1933ec544c017d64edf9478146474a382bee4e70300fdc5f4f45b2f93e3945"
+
+[update]
+[update.modrinth]
+mod-id = "7ETmpdgC"
+version = "UuXfR7kU"

@@ -1,0 +1,13 @@
+name = "Cook your food"
+filename = "cookyourfood--mc1.20.1--1.11.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/5L9FxTN2/versions/kcuZ8ohc/cookyourfood--mc1.20.1--1.11.jar"
+hash-format = "sha512"
+hash = "d908476839ee27ac745ccb928cae98f1567d3dfdab863130a8406b01b4ca38bd070e18d201cbb96103bfe10d897848e068a98b2b0f74dbf93cdc8a9f2ef6cc16"
+
+[update]
+[update.modrinth]
+mod-id = "5L9FxTN2"
+version = "kcuZ8ohc"

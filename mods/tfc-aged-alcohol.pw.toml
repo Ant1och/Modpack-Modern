@@ -1,0 +1,13 @@
+name = "TFC Aged Alcohol"
+filename = "TFCAgedAlcohol-1.20.1-2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0f9389d1fc476e8071bf342703dbb9211a310934"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6299084
+project-id = 880532

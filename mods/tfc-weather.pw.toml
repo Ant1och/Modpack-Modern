@@ -1,0 +1,13 @@
+name = "TFC Weather"
+filename = "TFCWeather-1.20.1-1.6.12.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kQt5u4UL/versions/tf6FcQfM/TFCWeather-1.20.1-1.6.12.jar"
+hash-format = "sha512"
+hash = "ce0b26f49ac94bc54e6d98efbd1622d0798c5bddd5a6b5845d5bc60dcad304bbe8929522fde0a7a1eafb10805129067b14466bd0e390d7db4b5f2996f7d1e905"
+
+[update]
+[update.modrinth]
+mod-id = "kQt5u4UL"
+version = "tf6FcQfM"

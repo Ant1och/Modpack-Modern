@@ -1,0 +1,13 @@
+name = "Create Horse Power"
+filename = "createhorsepower-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b7818918171af3f32a499cd2d0091ae4dfd2bcca"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5812109
+project-id = 1121632

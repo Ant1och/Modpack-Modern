@@ -432,7 +432,7 @@ element {
 
 element {
   interactable = true
-  source = Forge {"placeholder":"modversion","values":{"modid":"forge"}}%n%Minecraft {"placeholder":"mcversion"}%n%{"placeholder":"loadedmods"} mods loaded%n%Modpack Version: &cDEV&r%n%Latest Modpack Version: &b{"placeholder":"json","values":{"source":"https://api.github.com/repos/TerraFirmaGreg-Team/Modpack-Modern/releases/latest","json_path":"$.tag_name"}}&r
+  source = Forge {"placeholder":"modversion","values":{"modid":"forge"}}%n%Minecraft {"placeholder":"mcversion"}%n%{"placeholder":"loadedmods"} mods loaded%n%Modpack Version: &c0.9.5&r%n%Latest Modpack Version: &b{"placeholder":"json","values":{"source":"https://api.github.com/repos/TerraFirmaGreg-Team/Modpack-Modern/releases/latest","json_path":"$.tag_name"}}&r
   source_mode = direct
   shadow = true
   scale = 1.0

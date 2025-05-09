@@ -363,7 +363,7 @@ familiarityDecayLimit = 0.3
 		#
 		# An amount that sitting in hot water will restore health, approximately twice per second.
 		#Range: 0.0 ~ 20.0
-		hotWaterHealAmount = 0.08
+		hotWaterHealAmount = 0.14
 
 	[blocks.saplings]
 		#
@@ -731,7 +731,7 @@ familiarityDecayLimit = 0.3
 		# A multiplier for how quickly the player regenerates health, under TFC's passive regeneration.
 		# By default, the player regenerates 0.2 HP/second, or 0.6 HP/second when above 80% hunger and thirst, where 1 HP = 1/50 of a heart.
 		#Range: 0.0 ~ 100.0
-		naturalRegenerationModifier = 1.0
+		naturalRegenerationModifier = 0.5
 		#
 		# How much total hunger consumed is required to completely refresh the player's nutrition.
 		# Player nutrition in TFC is calculated based on nutrition of the last few foods eaten - this is how many foods are used to calculate nutrition. By default, all TFC foods restore 4 hunger.
@@ -739,7 +739,7 @@ familiarityDecayLimit = 0.3
 		nutritionRotationHungerWindow = 80
 		#
 		# If player's nutrition should be kept even after death. Hunger and thirst are not affected and will be reset.
-		keepNutritionAfterDeath = true
+		keepNutritionAfterDeath = false
 		#
 		# How many hours should different foods ignore when trying to stack together automatically?
 		# Food made with different creation dates doesn't stack by default, unless it's within a specific window. This is the number of hours that different foods will try and stack together at the loss of a little extra expiry time.
@@ -757,17 +757,17 @@ familiarityDecayLimit = 0.3
 		#
 		# A multiplier for the minimum health that the player will obtain, based on their nutrition
 		#Range: 0.001 ~ 1000.0
-		nutritionMinimumHealthModifier = 0.2
+		nutritionMinimumHealthModifier = 0.008
 		#
 		# A multiplier for the default health that the player will have (this is at a average nutrition of 40%, aka the starting nutrition.
 		# Nutrition above this value will linearly scale to the maximum multiplier.
 		# Nutrition below this value will linearly scale to the minimum multiplier.
 		#Range: 0.001 ~ 1000.0
-		nutritionDefaultHealthModifier = 0.85
+		nutritionDefaultHealthModifier = 0.15
 		#
 		# A multiplier for the maximum health that the player will obtain, based on their nutrition
 		#Range: 0.001 ~ 1000.0
-		nutritionMaximumHealthModifier = 3.0
+		nutritionMaximumHealthModifier = 3.5
 
 	[mechanics.foodTraits]
 		#

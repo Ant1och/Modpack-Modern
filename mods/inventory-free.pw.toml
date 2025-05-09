@@ -1,0 +1,13 @@
+name = "Inventory-Free"
+filename = "InventoryFree-1.20.1-3.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "759e228b2b846b38eb56dfbf6f53478eec25df27"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4658538
+project-id = 406383

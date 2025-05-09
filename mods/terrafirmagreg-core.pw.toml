@@ -1,0 +1,13 @@
+name = "TerraFirmaGreg-Core"
+filename = "TerraFirmaGreg-Core-Modern-0.6.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7f1b225c8f1669dcbf37198eb2ebc2e36e739ced"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6493960
+project-id = 513402

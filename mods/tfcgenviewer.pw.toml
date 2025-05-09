@@ -1,0 +1,13 @@
+name = "TFCGenViewer"
+filename = "tfcgenviewer-1.20.1-1.4.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9ed2b9125f46c79043912d695f710b9bdb0f68a9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5994665
+project-id = 1062270
