@@ -21,7 +21,7 @@ const registerFirstAidRecipes = (event) => {
       A: '#tfc:high_quality_cloth',
       B: 'minecraft:paper',
       C: 'tfc:glue'
-    }).id('firstaid:bandage')
+    }).id('firstaid:bandage2')
   
   event.shaped('3x firstaid:plaster', [
     'A A',
