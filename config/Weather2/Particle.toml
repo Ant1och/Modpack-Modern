@@ -6,7 +6,7 @@
 	Precipitation_Particle_effect_rate = 1.0
 	#Adjust amount of all weather2 based particles, works as a multiplier
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	Particle_effect_rate = 0.10000000149011612
+	Particle_effect_rate = 1.0
 	#If true, uses vanilla rain/snow non particle precipitation
 	Particle_vanilla_precipitation = false
 	#If set to false, particles are spawned in using the vanilla particle renderer, may cause issues, performance seems worse

@@ -23,7 +23,7 @@
 		fpsDisplayMargin = 12
 		#Toggle FPS Display shadow
 		#In case sometimes you can't see the text
-		fpsDisplayShadow = false
+		fpsDisplayShadow = true
 
 	[embeddiumextras.quality]
 		#Toggle fog feature
@@ -46,7 +46,7 @@
 			#Toggle Darkness on Overworld dimension
 			enableOnOverworld = true
 			#Toggle Darkness on Nether dimension
-			enableOnNether = false
+			enableOnNether = true
 			#Configure fog brightness on nether when darkness is enabled
 			#Range: 0.0 ~ 1.0
 			netherFogBright = 0.5
@@ -61,7 +61,7 @@
 			#This option overrides 'valueByDefault' state
 			dimensionWhitelist = []
 			#Toggle darkness when dimension has no SkyLight
-			enableOnNoSkyLight = false
+			enableOnNoSkyLight = true
 			#Disables all bright sources of darkness like moon or fog
 			#Only affects darkness effect
 			enableBlockLightOnly = false
@@ -69,7 +69,7 @@
 			affectedByMoonPhase = true
 			#Configure max moon brightness level with darkness
 			#Range: 0.0 ~ 1.0
-			fullMoonBright = 0.25
+			fullMoonBright = 0.21
 			#Configure min moon brightness level with darkness
 			#Range: 0.0 ~ 1.0
 			newMoonBright = 0.0

@@ -3,7 +3,7 @@
 [general]
 	#-
 	#Range: > -2147483648
-	Misc_simBoxRadiusCutoff = 2048
+	Misc_simBoxRadiusCutoff = 1024
 	#-
 	#Range: > -2147483648
 	Misc_simBoxRadiusSpawn = 128
@@ -17,27 +17,27 @@
 	Cloud_ParticleSpawnDelay = 1
 	#Distance between cloud formations, not particles, this includes invisible cloudless formations used during partial cloud coverage
 	#Range: > -2147483648
-	Cloud_Formation_MinDistBetweenSpawned = 16
+	Cloud_Formation_MinDistBetweenSpawned = 1
 	#For a second layer of passive non storm progressing cloudOption
 	Cloud_Layer1_Enable = true
 	#-
 	#Range: > -2147483648
-	Cloud_Layer0_Height = 210
+	Cloud_Layer0_Height = 185
 	#-
 	#Range: > -2147483648
-	Cloud_Layer1_Height = 230
+	Cloud_Layer1_Height = 195
 	#Not used at the moment
 	#Range: > -2147483648
-	Cloud_Layer2_Height = 230
+	Cloud_Layer2_Height = 195
 	#How much to randomly change cloud coverage % amount, performed every 10 seconds
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	Cloud_Coverage_Random_Change_Amount = 1.5
+	Cloud_Coverage_Random_Change_Amount = 10.0
 	#Minimum percent of cloud coverage, supports negative for extended cloudless sky coverage
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	Cloud_Coverage_Min_Percent = 100.0
+	Cloud_Coverage_Min_Percent = 1200.0
 	#Maximum percent of cloud coverage, supports over 100% for extended full cloud sky coverage
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	Cloud_Coverage_Max_Percent = 500.0
+	Cloud_Coverage_Max_Percent = 3000.0
 	#-
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	sirenActivateDistance = 256.0

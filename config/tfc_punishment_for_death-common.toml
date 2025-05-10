@@ -3,17 +3,17 @@
 [general]
 	#Hunger handling mode: TFC (default), MANUAL (set value), KEEP (preserve after death)
 	#Allowed Values: TFC, MANUAL, KEEP
-	hungerMode = "MANUAL"
+	hungerMode = "TFC"
 	#Thirst handling mode: TFC (default), MANUAL (set value), KEEP (preserve after death)
 	#Allowed Values: TFC, MANUAL, KEEP
-	thirstMode = "MANUAL"
+	thirstMode = "TFC"
 	#Health handling mode: TFC (default), MANUAL (set value)
 	#Allowed Values: TFC, MANUAL
-	healthMode = "MANUAL"
+	healthMode = "TFC"
 	#Manual food level [1-20]
 	#Active only when hungerMode = MANUAL
 	#Range: 1 ~ 20
-	food_level = 16
+	food_level = 30
 	#Manual thirst level [5-100]
 	#Active only when thirstMode = MANUAL
 	#Range: 5 ~ 100
