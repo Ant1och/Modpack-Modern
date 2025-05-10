@@ -5,18 +5,21 @@ from math import exp
 import json
 import sys
 
-# Every crop will be spawned each 1 in RARITY chunks 
-RARITY = 170
+sigmoid = lambda x: 1 / (1 + exp(-x))
+
+MULT_EXP = 10**(-100)
+MULT_LINEAR = 1.25
+
+formula = lambda x: round(MULT_LINEAR * x / sigmoid(x / MULT_EXP) / 5) * 5
 
 files = [f for f in listdir(".") if isfile(join(".", f))]
-files.remove("change_plants_rarity.py")
+files.remove("change_ores_rarity.py")
 
 for file in files:
     with open(file, "r") as f:
         data = json.load(f)
 
-    if "chance" in data["placement"][2]:
-        data["placement"][2]["chance"] = RARITY
+    data["config"]["rarity"] = formula(data["config"]["rarity"])
 
     with open(file, "w") as f:
         json.dump(data, f, indent=2)
