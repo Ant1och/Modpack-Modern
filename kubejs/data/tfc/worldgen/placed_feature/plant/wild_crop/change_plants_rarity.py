@@ -6,7 +6,7 @@ import json
 import sys
 
 # Every crop will be spawned each 1 in RARITY chunks 
-RARITY = 1
+RARITY = 360
 
 files = [f for f in listdir(".") if isfile(join(".", f))]
 files.remove("change_plants_rarity.py")

@@ -8,7 +8,7 @@ import sys
 sigmoid = lambda x: 1 / (1 + exp(-x))
 
 MULT_EXP = 10**(-100)
-MULT_LINEAR = 3/4
+MULT_LINEAR = 13/12 # total - 1.3
 
 formula = lambda x: round(MULT_LINEAR * x / sigmoid(x / MULT_EXP) / 5) * 5
 

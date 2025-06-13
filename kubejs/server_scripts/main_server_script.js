@@ -218,4 +218,5 @@ ServerEvents.recipes(event => {
     registerVintageImprovementsRecipes(event)
     registerWaterFlasksRecipes(event)
     registerFirstAidRecipes(event)
+    registerMapAtlasesRecipes(event)
 })
