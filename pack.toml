@@ -1,6 +1,6 @@
 name = "TerraFirmaGreg-Modern"
 author = "Exception, Xikaro, Roodnt"
-version = "0.9.5"
+version = "0.9.11"
 pack-format = "packwiz:1.1.0"
 
 [index]
