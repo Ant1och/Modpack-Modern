@@ -1,0 +1,13 @@
+name = "Generator"
+filename = "chunk_gen-5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/mJAm0uFF/versions/RKwFC3vR/chunk_gen-5.jar"
+hash-format = "sha512"
+hash = "042163d26ebe7f69b54b353289941b9cb84087c4c23e8c5321132f382dce0042832ed2af41d148168f0ecf9573ffecaecf81dc2d5616622d4f007efb7fe9e171"
+
+[update]
+[update.modrinth]
+mod-id = "mJAm0uFF"
+version = "RKwFC3vR"

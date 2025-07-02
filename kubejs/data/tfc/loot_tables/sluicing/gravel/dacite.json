@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "tfc:rock/loose/dacite",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "n": 1,
+                                "p": 0.55,
+                                "type": "minecraft:binomial"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "tfc:groundcover/pumice",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "n": 1,
+                                "p": 0.05,
+                                "type": "minecraft:binomial"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

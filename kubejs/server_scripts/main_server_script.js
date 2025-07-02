@@ -132,6 +132,7 @@ TFCEvents.data(event => {
     registerTFCDataForTFCLunchbox(event)
     registerTFCDataForWaterFlasks(event)
     registerTFCDataForFirmalife(event)
+    registerTFCSluicingLootTables(event)
 })
 
 /**

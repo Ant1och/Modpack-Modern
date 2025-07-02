@@ -1,0 +1,20 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": [
+    "minecraft:water",
+    "tfc:river_water"
+  ],
+  "thirst": 10,
+  "effects": [
+    {
+      "type": "minecraft:nausea",
+      "duration": 300,
+      "chance": 0.5
+    },
+    {
+      "type": "minecraft:poison",
+      "duration": 100,
+      "chance": 0.125
+    }
+  ]
+}

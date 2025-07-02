@@ -1,0 +1,13 @@
+name = "TFC Anvil Helper"
+filename = "Perfected Anvil Helper.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "67ce571b82410f62b776cd20b6a026802033217d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4862357
+project-id = 836902

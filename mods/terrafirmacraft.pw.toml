@@ -3,11 +3,11 @@ filename = "TerraFirmaCraft-Forge-1.20.1-3.2.14.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/JaCEZUhg/versions/YO1EaEWV/TerraFirmaCraft-Forge-1.20.1-3.2.14.jar"
-hash-format = "sha512"
-hash = "7e3953a517f5e7a0ad8c0ade5ebbdaa7fcdc93cf484c1c38584520731521906765e066001a45f96f31b2e232ed4aa2348f57ac57e8ce123eea8f884af33ac210"
+hash-format = "sha1"
+hash = "0ade622eff1002ddd14fdabfeb989b2cfb121c64"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "JaCEZUhg"
-version = "YO1EaEWV"
+[update.curseforge]
+file-id = 6187491
+project-id = 302973

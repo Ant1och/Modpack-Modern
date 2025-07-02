@@ -1,13 +1,13 @@
 name = "ILAORE's TFC 32x (terrafirmacraft, terra firma craft)"
-filename = "ILAORE's_TFC_32x_ver_0.15_1.20.1.zip"
+filename = "ILAORE's_TFC_32x_ver_0.16_1.20.1.zip"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "67f277d47406a7adc6b36a7429fed62c123bc347"
+hash = "52b2078da9933aead7b2ed180defa873998c07d1"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6063608
+file-id = 6546962
 project-id = 952112

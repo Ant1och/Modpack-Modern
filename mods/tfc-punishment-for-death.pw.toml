@@ -1,13 +1,13 @@
 name = "TFC Punishment for Death"
-filename = "TFC_punishment_for_death-1.20.1-1.0.0.11.jar"
+filename = "TFC_punishment_for_death-1.20.1-1.0.0.15.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "12ca24ed80edce1eaf0c725f52e61284c10c7e3e"
+hash = "0c7ff3607981f60970fdf85ee52c7e50ad9f5fcd"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6495648
+file-id = 6613067
 project-id = 1258250

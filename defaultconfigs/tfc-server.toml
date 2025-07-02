@@ -757,13 +757,13 @@ familiarityDecayLimit = 0.3
 		#
 		# A multiplier for the minimum health that the player will obtain, based on their nutrition
 		#Range: 0.001 ~ 1000.0
-		nutritionMinimumHealthModifier = 0.08
+		nutritionMinimumHealthModifier = 0.11
 		#
 		# A multiplier for the default health that the player will have (this is at a average nutrition of 40%, aka the starting nutrition.
 		# Nutrition above this value will linearly scale to the maximum multiplier.
 		# Nutrition below this value will linearly scale to the minimum multiplier.
 		#Range: 0.001 ~ 1000.0
-		nutritionDefaultHealthModifier = 0.25
+		nutritionDefaultHealthModifier = 0.32
 		#
 		# A multiplier for the maximum health that the player will obtain, based on their nutrition
 		#Range: 0.001 ~ 1000.0

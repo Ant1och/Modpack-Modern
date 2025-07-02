@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "name": "loot_pool",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "tfc:rock/loose/andesite",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "n": 1,
+                                "p": 0.65,
+                                "type": "minecraft:binomial"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "tfc:groundcover/pumice",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "n": 1,
+                                "p": 0.07,
+                                "type": "minecraft:binomial"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

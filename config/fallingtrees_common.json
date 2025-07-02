@@ -6,7 +6,7 @@
   "dynamicMiningSpeed": {
     "disable": false,
     "speedMultiplication": 0.5,
-    "maxSpeedMultiplication": 16.0
+    "maxSpeedMultiplication": 8.0
   },
   "trees": {
     "standardTree": {
